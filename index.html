@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <title>My Compiler</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  </body>
+  
+    <div id="mainDiv">
+      <div id="title">
+        <h1>Compiler </h1>
+      </div>
+      <div>
+        <div id="languageSelection">
+          Language : 
+          <select id="selectLanguage">
+            <option value="7">C</option>
+            <option value="77">C++</option>
+            <option value="8">Java</option>
+            <option value="4">JavaScript</option>
+            <option value="0">Python</option>
+          </select>
+
+        </div>
+        <div id="writing">
+          <textarea id="textArea" rows="34" cols="90"></textarea>
+        </div>
+      </div>
+
+      <div id="button">
+        <button onclick="handleCompile()">Run</button>
+      </div>
+      
+      
+      <h3>Output :</h3>
+
+      <div id="outputArea">
+        This is  Your Output Area
+      </div>
+    </div>
+    
+  </body>
+<script src="script.js"></script>
+</html>
+

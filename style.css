@@ -1,0 +1,39 @@
+*{
+    color: white;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1 {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+textarea{
+    font-size:  20px;
+}
+#languageSelect {
+    float: right;
+}
+
+button {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    height: 30;
+    width: 90;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
